@@ -1,0 +1,180 @@
+
+.project-box {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /*background-position-x: -80px;*/
+    /*background-color: #a14ff9;*/
+}
+
+.thumbnail {
+    border: 0 none;
+    box-shadow: none;
+}
+
+.center {
+    margin: auto;
+    width: 70%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+    color: white;
+  }
+
+.title{
+    text-align: center;
+    color:rgb(196, 127, 186);
+}
+
+.span-title{
+    background-color:rgba(194, 234, 241, 0.336);
+}
+video {
+    max-width: 100%;
+    height: 1080px;
+}
+
+/* instead of hovering on image, hover on the whole project box */
+.project-box:hover img {
+    -webkit-filter: brightness(80%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.figcaption{
+    color: white;
+}
+
+.project-text {
+    -webkit-filter: opacity(0);
+    color: white;
+    position: absolute;
+    z-index: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+.project-box:hover .project-text {
+    -webkit-filter: opacity(1);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.project-box img {
+    object-fit: cover;
+    z-index: -1;
+}
+
+.close {
+    color: #fff; 
+    opacity: 1;
+}
+
+* {box-sizing:border-box}
+
+
+/* Slideshow container */
+.slideshow-container {
+    height:50%
+}
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.center-cropped {
+    
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    object-position: center;
+  }
+
+
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor:crosshair;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  /* margin-top: -22px; */
+  /* padding: 16px; */
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgb(196, 127, 186);
+
+}
+
+/* The dots/bullets/indicators */
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .5}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 1}
+}
+
+.carousel {
+    max-height: 500px;
+    overflow: hidden;
+  }
+  
+  .carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+  .carousel .item img {
+    width: 100%;
+    height: auto;
+  }

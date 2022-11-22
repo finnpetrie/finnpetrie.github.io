@@ -1,0 +1,73 @@
+
+.project-box {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /*background-position-x: -80px;*/
+    /*background-color: #a14ff9;*/
+}
+
+.thumbnail {
+    border: 0 none;
+    box-shadow: none;
+}
+
+.title{
+    text-align: center;
+    color:rgb(196, 127, 186);
+}
+
+.span-title{
+    background-color:rgba(194, 234, 241, 0.336);
+}
+video {
+    max-width: 100%;
+    height: 1080px;
+}
+
+/* instead of hovering on image, hover on the whole project box */
+.project-box:hover img {
+    -webkit-filter: brightness(80%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.figcaption{
+    color: white;
+}
+
+.project-text {
+    -webkit-filter: opacity(0);
+    color: white;
+    position: absolute;
+    z-index: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+.project-box:hover .project-text {
+    -webkit-filter: opacity(1);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.project-box img {
+    object-fit: cover;
+    z-index: -1;
+}
+
+.close {
+    color: #fff; 
+    opacity: 1;
+}

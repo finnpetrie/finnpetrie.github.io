@@ -1,0 +1,2 @@
+<div class ="center"><img src="/Pictures/cello.jpg" class="img-thumbnail" style ="border: none; opacity: 70%; background: transparent;"  alt = "">
+    <p>Kia ora, my name is Finn. I am interdisciplinary artist, musician, and computer graphics and vision engineer. I am interested in increasing the cognitive ecology of this planet</p></div> -->

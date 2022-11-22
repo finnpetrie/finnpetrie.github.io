@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- JavaScript Bundle with Popper -->
+    <link rel="stylesheet" href ="Style/index.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style/Links.css">
+
+    <title>Finn Petrie</title>
+</head>
+<body style ="background-color:black">
+  <div class ="links-container" style="z-index: 2; position: absolute;">
+    <a href = "index.html" style="color:rgb(196, 127, 186);"><p><span style= "background-color:rgba(194, 234, 241, 0.336);">FINN PETRIE</span></p></a>
+    <a href = "CV.html"><p><span class = "span-link">BIO</span></p></a>
+    <a href = "Publications.html"><p><span class = "span-link">PUBLICATIONS</span></p></a>
+
+  </div>
+  
+  
+  <!-- The dots/circles -->
+  <!-- <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div> -->
+
+  
+    <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade"  data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval ="2000">
+          <img src="Pictures/EpiphyticMemory/IMG_1455a.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval ="3000">
+          <img src="Pictures/Ghosts/IMG_1808.JPG" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval ="3000">
+          <img src ="Pictures/House/screen_5-min - Copy.png" class="d-block w-100" alt="...">
+          
+        </div>
+        <div class="carousel-item" data-bs-interval ="3000">
+          <img src="Pictures/Clouds/20220127_170917.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval ="3000">
+          <img src ="Pictures/EpiphyticMemory/IMG_1432.JPG" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval ="3000">
+          <img src="Pictures/Ghosts/IMG_1890.JPG" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval ="3000">
+          <img src ="Pictures/Raytracing/global_illumination.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval ="3000">
+          <img src="Pictures/EpiphyticMemory/P1080259 - Copy.JPG" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval ="3000">
+          <img src="Pictures/EpiphyticMemory/IMG_2147.JPG" class="d-block w-100" alt="...">
+        </div>
+     
+        <div class="carousel-item" data-bs-interval ="3000">
+          <img src="Pictures/EpiphyticMemory/IMG_2182.JPG" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval ="3000">
+          <img src ="Pictures/EpiphyticMemory/IMG_2253.JPG" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+  
+  
+  <!-- The dots/circles -->
+  <!-- <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div> -->
+
+  <div class ="center">
+    <p>Finn Petrie is an interdisciplinary artist, musician, experimental game developer, and computer graphics and computer vision engineer. His work aims to foster and cultivate cognitive eco-systems -- whether through establishing ontological connections between us and non-humans in his art, developing audience interactive perfomances as a musician, or through implementing and researching emerging technologies to create mathematical puzzle games about perception and spatial intuition -- he is concerned with how technology can allow us a greater sense of life and connection on this planet. </p>
+  </div>
+
+
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <p style = "color: white;">Art and Technology</p>
+            <div class = "project-box" data-bs-toggle="modal"  data-bs-target="#Phyto-Memory">
+              <span class = "project-text"><p>Epiphytic Memory (Public Installation)</p>
+                <p> + Click For More Info</p></span>
+                <img src="/Pictures/EpiphyticMemory/IMG_1432.JPG" class="img-thumbnail" style ="border: none; background: transparent;"  alt = "">
+              </div>
+              <div class = "project-box" data-bs-toggle="modal"  data-bs-target="#Phyto-Memory">
+                <span class = "project-text"><p>Epiphytic Memory (Gallery Installation)</p>
+                  <p> + Click For More Info</p></span>
+                  <img src="/Pictures/EpiphyticMemory/IMG_2253.JPG" class="img-thumbnail" style ="border: none; background: transparent;"  alt = "">
+                </div>
+                <div class = "project-box" data-bs-toggle="modal"  data-bs-target="#Ghosts">
+                  <span class = "project-text"><p>The Ghosts of Future Trees (Work in Progress)</p>
+                    <p> + Click For More Info</p></span>
+                    <img src="/Pictures/Ghosts/IMG_1890 - Copy.JPG" class="img-thumbnail" style ="border: none; background: transparent;"  alt = "">
+                  </div>
+                  <div class = "project-box" data-bs-toggle="modal"  data-bs-target="#Porcelain">
+                    <span class = "project-text"><p>Porcelain Clouds (Light + Clay Study)</p>
+                      <p> + Click For More Info</p></span>
+                      <img src="/Pictures/Clouds/20220127_170917.jpg" class="img-thumbnail" style ="border: none; background: transparent;"  alt = "">
+                    </div>
+                    <div class = "project-box" data-bs-toggle="modal"  data-bs-target="#Retipora">
+                      <span class = "project-text"><p>Retipora (A Network of Pores)</p>
+                        <p> + Click For More Info</p></span>
+                        <img src="/Pictures/Finn-Petrie-Still-1.png" class="img-thumbnail" style ="border: none; background: transparent;"  alt = "">
+                      </div>
+                    
+          </div>
+
+
+          <div class="col-sm">
+            <p style = "color: white;">Research and Professional Development</p>
+            <div class = "project-box" data-bs-toggle="modal"  data-bs-target="#Mirrored">
+              <span class = "project-text"><p>Mirrored (Real Time Ray-Tracing as a Game Mechanic)</p>
+                <p> + Click For More Info</p></span>
+                <img src="/Pictures/House/309248747_836797057349800_7403920216660448968_n.gif" class="img-thumbnail" style ="border: none; background: transparent;"  alt = "">
+              </div>
+            <div class = "project-box" data-bs-toggle="modal"  data-bs-target="#RayTracing">
+              <span class = "project-text"><p>Real Time Ray-Tracing</p>
+                <p> + Click For More Info</p></span>
+                <img src="/Pictures/Raytracing/render_sample.jpg" class="img-thumbnail" style ="border: none; background: transparent;"  alt = "">
+              </div>
+              <div class = "project-box" data-bs-toggle="modal"  data-bs-target="#PhotogrammetricDebitage">
+                <span class = "project-text"><p>Photogrammetric Debitage Analysis: Non-Invasive Archeology</p>
+                  <p> + Click For More Info</p></span>
+                  <img src="/Pictures/Stones/sideA01.png" class="img-thumbnail" style ="border: none; background: transparent;"  alt = "">
+                </div>
+                
+
+
+          </div>
+          <div class="col-sm">
+            <p style = "color: white;">Music and Performance</p>
+            <div class = "project-box" data-bs-toggle="modal"  data-bs-target="#OtherRooms">
+              <span class = "project-text"><p>Other Rooms (Bedroom Recorded Album)</p>
+                <p> + Click For More Info</p></span>
+                <img src="/Pictures/a0635038067_10.jpg" class="img-thumbnail" style ="border: none; background: transparent;"  alt = "">
+              </div>
+              <div class = "project-box" data-bs-toggle="modal"  data-bs-target="#SineRave">
+                <span class = "project-text"><p>Sine Rave Performance</p>
+                  <p> + Click For More Info</p></span>
+                  <img src="/Pictures/SineRave/IMG_20210328_011252_1.jpg" class="img-thumbnail" style ="border: none; background: transparent;"  alt = "">
+                </div>
+                <div class = "project-box" data-bs-toggle="modal"  data-bs-target="#Maryland">
+                  <span class = "project-text"><p>Live Performance</p>
+                    <p> + Click For More Info</p></span>
+                    <img src="/Pictures/Performance/28165163_10155920061100283_444685239955644846_o.jpg" class="img-thumbnail" style ="border: none; background: transparent;"  alt = "">
+                  </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="Phyto-Memory" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" >
+          <div class="modal-content" style="background: black;">
+            <div class="modal-header">
+              <h5 class="modal-title text-center text-light" id="exampleModalLabel">Epiphytic Memory</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" style = "color:white" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <figure>
+                <img src="/Pictures/EpiphyticMemory/IMG_2182.JPG" class="img-thumbnail" style ="border: none; background: transparent;"  alt = "">
+                <figcaption style="color:white;">Sculptures, clay 3D prints, epiphyte sites. Porcelain, paper clay. Variable dimensions</figcaption>
+            </figure>
+            
+
+             
+               <p class ="text-light">Epiphytic Memory is an ongoing project motivated by the symbiotic homing relations of plants. The artist 3D-printed porcelain light detection and ranging (LIDAR) scans of ancient trees from Aotearoa New Zealand’s southern rain-forests, situating them in hybrid environments in Ōtepoti Dunedin as scientific interventions. These site-specific sculptures function both as memories and as potential bio-scaffolds for new life. The project uses augmented reality to help understand the depth of time involved within the work, through an interactive gallery installation that simulates plant growth. 
+              </p>
+
+               <iframe title="Epiphytic Memory Documentation" src="https://player.vimeo.com/video/687005056?h=6e807e28fa" width = "100%" height = "600" frameborder="0" allowfullscreen></iframe>
+               <iframe title="AR Documentation" src="https://player.vimeo.com/video/687360606?h=a3a7b04faf" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
+               <img src= "Pictures/EpiphyticMemory/IMG_2237_COPY.JPG"  class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+
+               <img src="/Pictures/EpiphyticMemory/IMG_1455a.jpg" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+               <img src="/Pictures/EpiphyticMemory/IMG_1432.JPG" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+               <img src="/Pictures/EpiphyticMemory/IMG_1486.JPG" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+               <img src="/Pictures/EpiphyticMemory/IMG_2147.jpg" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+
+               <p class = "text-light">Works located near architecture demonstrate the project's emphasis on connectivity between humans, technology, and plants. In some instances the forms are based on LIDAR scans of buildings digitally merged with the shapes of ancient trees. This performs a sort of co-becoming, a means for us to think through, and pay respect to, the constant yet slow push between plants and the built environment, as well as to speculate on a new architecture – one that not only welcomes plants, but sees them as necessary cohabitants. These works (see below) appear like tree-architectural hybrids, and often have unprintable parts left behind from the surface reconstruction algorithm used in merging the structures. </p>
+              <img src="/Pictures/EpiphyticMemory/P1080259.JPG" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+
+            
+              <iframe title="In Situ" src="https://player.vimeo.com/video/687006632?h=a7d4f76218" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
+
+
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+<div class="modal fade" id="Retipora" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content" style = "background: black;">
+            <div class="modal-header">
+              <h5 class="modal-title text-light" id="exampleModalLabel">Retipora (A Network of Pores)</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" style = "color:white" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <figure>
+                <img src="/Pictures/Finn-Petrie-Still-1.png" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+                <figcaption style="color:white;">Real time rendering. Single channel, HD. Pointcloud data, sound.</figcaption>
+            </figure>
+
+              <p class="text-light">Motivated by the notion of material hermeneutics, what philosopher Don Ihde describes as the interpretative practices of scientific visualisation, Retipora (A Network of Pores) was an early experiment within my practice exploring shared existences between biologies and digital technologies. A cloud of data-points visualising a rock-face within Ross Creek (Ōtepoti) is pushed through space and time – perhaps a thin film between worlds. The cloud appears to breathe as the 3-dimensional data shifts in and out, falling back to its original form only for a differential moment.</p>
+              <iframe src="https://player.vimeo.com/video/651010363?h=5709a45b8e&color=00FF00" frameborder = "0" width = "100%" height = "600" allowfullscreen></iframe>
+              <img src="/Images/P1080200 (2).JPG" class="img-thumbnail" style ="border: none; background: transparent;"alt = "">
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+      <div class="modal fade" id="Porcelain" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content" style = "background: black;">
+            <div class="modal-header">
+              <h5 class="modal-title text-light" id="exampleModalLabel"> Porcleain Clouds</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" style = "color:white" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            
+             <div class="container" >
+                <div class="row row-cols-2">
+                  <div class="col-6">
+                    <figure style ="max-width: 600px;">
+                      <img src="/Pictures/Clouds/20220127_170917.jpg" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+                      <img src="/Pictures/Clouds/20220928_084739.jpg" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+                      <figcaption style="color:white;">Light through 3D-printed porcelain (top), light on clouds in the early morning over the Tasman Sea (bottom).</figcaption>
+                  </figure>
+                  </div>
+                <div class="col-6">
+                  <p class="text-light">Porcelain clouds is a love letter to the weather. It is a small project I am currently conducting inspired by long flights in transit. In project consists of 3D-printed porcelain that has complex flows so that when seen under light its texture appears cloud-like.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+      <div class="modal fade" id="Mirrored" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content" style = "background: black;">
+            <div class="modal-header">
+              <h5 class="modal-title text-light" id="exampleModalLabel">Mirrored</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" style = "color:white" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <figure>
+                <img src="/Pictures/house/screen_5-min.png" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+                <figcaption style="color:white;">Interactive video game, ray-tracing, Unreal Engine 5.</figcaption>
+            </figure>
+              <p class = "text-light">Mirrored is a magical realist puzzle game based around perception and the physics of light, currently in early development, influenced by the stories of Jorge Luis Borges and Italo Calvino. The world is architectural and geometric, a city of reflections, invisible light, and unknown physical laws. The player uses perception to progress through the world. Doors here will only open if they can be seen from certain vantages; creatures inhabiting the city will move if they are not seen by the eye; and certain architectural elements only exist behind glass, and must be brought forth for the player to advance. On a technical level, the game explores the use of real-time ray-tracing as a game-mechanic. Ray-tracing, an algorithm invented by painters in the 16th century to faithfully capture reality, allows a way to fully simulate Newtonian/geometric optics, where light is abstracted as straight lines. Due to the computional cost of this algorithm, it has historically been used for offline rendering as opposed to real-time/interactive computer graphics. While the visual fidelity ray-tracing offers is substantial, the extent to which it might extend the domain of play in interactive mediums is often not discussed. The game is curently in development with the help of funding from the Centre of Digital Excellence (CODE).</p>
+              <img src="/Pictures/House/311901811_524265309033110_5737084098627073908_n.gif" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+
+              <p class = "text-light">Games typically compute what has been seen by the player by checking what has not been culled from the frustum culling process in Rasterisation</p>
+              <figure>
+                <img src="/Pictures/house/RTR4.19.09.png" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+                <figcaption style="color:white;">Frustrum culling: to discern what is visible to the player the CPU checks what objects are inside and outside the bounds of the player's view frustrum. The CPU then checks for occlusion. Figure from Real Time Rendering 4th Edition</figcaption>
+            </figure>
+              <p class = "text-light">However, this cannot be used to detect what has been rendered in ray-tracing, as some objects that may be rendered (say within reflections) could be outside the view volume. For example, the object behind the player in figure. 2 is rendered by reflection rays, yet would be considered 'unseen' by frustrum culling</p>
+              <img src= "Pictures/House/rt-whitted-example.png"  class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+              <p class = "text-light">To solve this issue, I have modified Unreal Engine 5. My modifications compute what has been rendered in ray-tracing on the GPU, and then passes this information back to the CPU per frame. This means the CPU knows which objects have been seen by the player, allowing gameplay to be developed around what is visible. An example of this gameplay is illustrated in figure 3. (a homage to Dr. Who's weeping angels), where statues move when they are not seen by the player.</p>
+            
+              <img src="/Pictures/House/311878773_934734627500974_7293957548553516913_n.gif" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+              <p class = "text-light">The main game loop requires players use their spatial intution to place mirrors that allow them to see doors that only open when visible.</p>
+
+              <img src="/Pictures/House/309248747_836797057349800_7403920216660448968_n.gif" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+              <img src="/Pictures/House/Screenshot 2022-09-25 130925.png" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+              <img src="/Pictures/House/Screenshot 2022-09-25 130939.png" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+              <img src="/Pictures/House/Screenshot 2022-09-25 131029.png" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+      <div class="modal fade" id="RayTracing" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" >
+          <div class="modal-content" style="background: black;">
+            <div class="modal-header">
+              <h5 class="modal-title text-center text-light" id="exampleModalLabel">Real-Time Ray-Tracing</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" style = "color:white" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+              <figure>
+                <img src="/Pictures/Raytracing/render_sample.jpg" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+                <figcaption style="color:white;"></figcaption>
+            </figure>
+            <p class="text-light">I conducted research into real-time ray-tracing for my honours dissertation (2020), which culminated in a peer-reviewed publication (<a href="https://ieeexplore.ieee.org/document/8961032" >Real-Time Ray-tracing of Implicit Surfaces</a>), as well as building the foundations for me to develop my video game Mirrored, which extends this research into a video game (see Mirrored). I built a real-time bi-directional path-tracer in DXR and DX12, as well as an implementation of the paper <a href="https://casual-effects.com/research/McGuire2009Photon/ISPM-HPG09.pdf">Image Space Photon Mapping</a> in modern hardware. I then conducted research into geometric representations on the GPU and analysed the speed of these representations compared to the hardware accelerated triangle mesh representation. These geometries inlcuded algebraic, implicit and construcitve solid geometry. Constructive solid geometry does not trivially map to the GPU prorgramming because it typically is represented recurisvely, to solve this, I divised an algorithm that pre-processed the CSG tree (see the figure below) into a post-order sorted list on the CPU, which the GPU could then process iteratively. As mentioned, this work ultimately led me to wonder how real-time ray-tracing could modify how video games were played, instead of being simply a technology that added visual fidelity. I received $34,000 NZD of funding from the New Zealand Centre of Digital Excellence toward developing Mirrored, which experiments with these ideas.
+            </p>
+            <figure>
+
+            <img src="/Pictures/Raytracing/CSG_Present.png" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+            <figcaption style="color:white;">Constructive Solid Geometry Tree of a mug. Geometries are subtracted, intersected, and added together to create the final object</figcaption>
+          </figure>
+            <img src="/Pictures/Raytracing/cubes_example.jpg" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+            <img src="/Pictures/Raytracing/global_illumination.jpg" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+
+         
+
+             
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+      <div class="modal fade" id="PhotogrammetricDebitage" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" >
+          <div class="modal-content" style="background: black;">
+            <div class="modal-header">
+              <h5 class="modal-title text-center text-light" id="exampleModalLabel">Modelling Stone Flakes</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" style = "color:white" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="text-light">During my undergraduate I helped develop and research methods to reconstruct objects that are traditionally hard to image using structure from motion. The research was in the context of imaging debitage -- debris used in the analysis of stone tools by archeologists. The work led to a published peer reviewed paper (see <a href="https://ieeexplore.ieee.org/document/8961032" ><span class ="span-link">Stitching Partial 3D-Models</span></a>), and was as outlining proof of concept for the project to get the Marsden Fund from the New Zealand Royal Society. The image below illustrates the observed error against the reconstructed model using my method - where blue is closer to the ground-truth. The aim is to make sure metric information is maintained when a real object is reconstructed, allowing for precise and relevant measurements. In general this research intends to allow archeologists a ‘non-invasive’ means to study archeological sites, where they no longer need to appropriate artifacts from a site, but instead can image them with a camera and perform analysis off-site. This is both practically and culturally significant, where archeologists can use less resources, but also can cause less damage to culturally significant sites, especially those of indigenous groups as is the case with this research.
+              </p>
+              <figure>
+                <img src="/Pictures/Stones/sideA00.png" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+                <figcaption style="color:white;"></figcaption>
+                <img src="/Pictures/Stones/sideA01.png" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+
+            </figure>
+            
+
+            
+
+             
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="modal fade" id="OtherRooms" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" >
+          <div class="modal-content" style="background: black;">
+            <div class="modal-header">
+              <h5 class="modal-title text-center text-light" id="exampleModalLabel">Other Rooms</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" style = "color:white" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+              <p class="text-light">Other Rooms is an experimental ambient album I recorded with my bandmate Liam Hayward in my room during the summer of 2017-2018. It features guitar, piano, violin, drums, and electronic elements. It also feautured a collaboration with Japanese musician Motoko Kikkawa. The album can be listened to below.
+              </p>
+            
+            <iframe style="border: 0; width: 100%; height: 100%;" src="https://bandcamp.com/EmbeddedPlayer/album=1786124427/size=large/bgcol=333333/linkcol=fe7eaf/tracklist=false/transparent=true/" seamless><a href="https://marylandsketches.bandcamp.com/album/other-rooms-2">Other Rooms by Maryland</a></iframe>
+            
+
+  <p class="text-light">The following video was recorded and directed by us for the album's promotion.
+              </p>
+               <iframe width="100%" height="600" src="https://www.youtube.com/embed/_ty0M6zmOEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="SineRave" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" >
+          <div class="modal-content" style="background: black;">
+            <div class="modal-header">
+              <h5 class="modal-title text-center text-light" id="exampleModalLabel">Sine Rave</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" style = "color:white" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="text-light">Sine Rave was a 12 hour festival during an autumn night in Dunedin. Audience members were invited to fall asleep to ambient, embodying music.
+                I wrote and performed a one hour piece (for cello and violin) with violinst Craig Monk (Dunedin Symphony Orchestra). The work had an interactive visual element, which invited audience members to control a shifting mass of points (developed in Unity with custom shaders) projected behind the performance. Audience members learnt to react to the music, extending the piece both collaboratively and cognitively.
+               </p>
+               <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CM-uaTqJ1w1/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CM-uaTqJ1w1/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CM-uaTqJ1w1/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Finn Petrie (@endevolada)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+              <figure>
+                <img src="/Pictures/SineRave/IMG_20210328_011252_1.jpg" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+                <figcaption style="color:white;"></figcaption>
+            </figure>
+            
+
+    
+
+             
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+      <div class="modal fade" id="Maryland" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" >
+          <div class="modal-content" style="background: black;">
+            <div class="modal-header">
+              <h5 class="modal-title text-center text-light" id="exampleModalLabel">Live Performance</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" style = "color:white" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+              <p class="text-light">I have been a professional musician since 2014. I have taught myself classical guitar technique, and the cello. My music focuses on building layered walls of sound using loops and other instruments.
+                The video below gives a live-to-air performance of mine at local radio station, RadioOne.
+               </p>
+            <iframe width = "100%" height = "600" src="https://www.youtube.com/embed/iHR7G0nGPPs?start=865" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <img src="/Pictures/Performance/1613822_497867293681743_5402640613778697523_n.jpg" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+
+            <img src="/Pictures/Performance/cello.jpg" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+
+             
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="Ghosts" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" >
+          <div class="modal-content" style="background: black;">
+            <div class="modal-header">
+              <h5 class="modal-title text-center text-light" id="exampleModalLabel">The Ghosts of Future Trees</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" style = "color:white" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+              <figure>
+                <img src="/Pictures/Ghosts/IMG_1808.JPG" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+                <figcaption style="color:white;">Bioluminescent and translucent clay printed sculptures. Porcelain, arduino nano, CO2 sensors, blue LEDs. Variable dimensions</figcaption>
+            </figure>
+            
+
+              <p class="text-light">The ghosts of future trees is an extension to Epiphytic Memory. The work explores a dystopian future where the course of western colonial techno-patriarchy has destroyed earth’s living ecosystems. In this troubled world, distraught spirits of bygone beings are left to roam a desecrated earth. These ephemeral forms are reduced and stunted, shifting in and out of various collapsed organic permutations as they reminisce and mourn the loss of physical life. Humans in an effort to commune with these spirits and their lost physical forms, have created structures in the image of the ghosts they see (or feeble impressions of them).
+
+               Hence the project is speculative and foreboding. The work consists of 3D-printed, translucent porcelain trees – derived from photogrammetric scans of sites in the Catlins, one of New Zealand’s largest remaining rain forests. The trees are responsive to environmental phenomena, much like the trees we know, yet their response is incorrect. They bioluminescence as a function of CO2, and communicate over a mycorrhizal network of light: the internet. These reactive qualities demonstrate feeble simulacrum, a drifting away and forgetting of those trees we know currently. 
+               </p>
+
+              <img src="/Pictures/Ghosts/IMG_1890.JPG" class="img-thumbnail" style ="border: none; background: transparent;"  alt = "">
+              <img src="/Pictures/Ghosts/IMG_1799.JPG" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
+           
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.0/umd/popper.min.js" integrity="sha512-PZrlUFhlOigX38TOCMdaYkhiqa/fET/Lztzjn+kdGxefUZanNUfmHv+9M/wSiOHzlcLX/vcCnmvOZSHi5Dqrsw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</html>
