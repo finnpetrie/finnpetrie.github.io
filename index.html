@@ -187,7 +187,8 @@
               <img src= "Pictures/EpiphyticMemory/IMG_2237_COPY.JPG"  class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
               <figcaption style="color:white;">Fig 3. Augmented reality view. The model begins as a bio-scaffold, illustrating the current state of the printed objects.</figcaption>
           </figure>
-          <iframe title="AR Documentation" src="https://player.vimeo.com/video/687360606?h=a3a7b04faf" width="100%" height="600" frameborder="0" allowfullscreen></iframe>          <figure>
+          <figure>
+          <iframe title="AR Documentation" src="https://player.vimeo.com/video/687360606?h=a3a7b04faf" width="100%" height="600" frameborder="0" allowfullscreen></iframe>         
             <img src= "Pictures/EpiphyticMemory/Petrie_Fig06b.jpg"  class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
             <figcaption style="color:white;">Fig 4. Gallery view: leaf litter from the sites of public intervention were situated in the gallery with the 3D-prints. Videos that illustrate non-human communication hung from the ceiling like vines.</figcaption>
         </figure>
@@ -559,31 +560,49 @@
 
   
       <script> $("#Maryland").on('hidden.bs.modal', function (e) {
-        $("#Maryland iframe").attr("src", $("#Maryland iframe").attr("src"));
-    });</script>
+$("#Maryland iframe").each(function() { 
+        var src= $(this).attr('src');
+        $(this).attr('src',src);  
+});    });</script>
 
 <script> $("#SineRave").on('hidden.bs.modal', function (e) {
-  $("#SineRave iframe").attr("src", $("#SineRave iframe").attr("src"));
-});</script>
+$("#SinveRave iframe").each(function() { 
+        var src= $(this).attr('src');
+        $(this).attr('src',src);  
+});});</script>
       
       <script> $("#OtherRooms").on('hidden.bs.modal', function (e) {
-        $("#OtherRooms iframe").attr("src", $("#OtherRooms iframe").attr("src"));
-      });</script>
+$("#OtherRooms iframe").each(function() { 
+        var src= $(this).attr('src');
+        $(this).attr('src',src);  
+});      });</script>
         
         <script> $("#RayTracing").on('hidden.bs.modal', function (e) {
-          $("#RayTracing iframe").attr("src", $("#RayTracing iframe").attr("src"));
-        });</script>
+$("#RayTracing iframe").each(function() { 
+        var src= $(this).attr('src');
+        $(this).attr('src',src);  
+});        });</script>
 
 <script> $("#Retipora").on('hidden.bs.modal', function (e) {
-  $("#Retipora iframe").attr("src", $("#Retipora iframe").attr("src"));
+$("#Retipora iframe").each(function() { 
+        var src= $(this).attr('src');
+        $(this).attr('src',src);  
+});
 });</script>
 
 <script> $("#Mirrored").on('hidden.bs.modal', function (e) {
-  $("#Mirrored iframe").attr("src", $("#Mirrored iframe").attr("src"));
-});</script>
+$("#Mirrored iframe").each(function() { 
+        var src= $(this).attr('src');
+        $(this).attr('src',src);  
+});});</script>
 
 <script> $("#Phyto-Memory").on('hidden.bs.modal', function (e) {
-  $("#Phyto-Memory iframe").attr("src", $("#Phyto-Memory iframe").attr("src"));
+ $("#Phyto-Memory iframe").each(function() { 
+        var src= $(this).attr('src');
+        $(this).attr('src',src);  
+});
+
+
 });</script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.0/umd/popper.min.js" integrity="sha512-PZrlUFhlOigX38TOCMdaYkhiqa/fET/Lztzjn+kdGxefUZanNUfmHv+9M/wSiOHzlcLX/vcCnmvOZSHi5Dqrsw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
