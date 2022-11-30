@@ -317,7 +317,7 @@
                 <img src= "Pictures/House/game_2.png"  class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
                 <figcaption style="color:white;">Figure 4. Visibility in ray-tracing: the recursive mirrors mean objects not directly in the player's view frustrum are rendered. This means frustrum culling can not be used to determine what is and is not visible to the player in ray-tracing.</figcaption>
             </figure>
-              <p class = "text-light">To solve this issue, I have modified Unreal Engine 5. My modifications compute what has been rendered in ray-tracing on the GPU, and then this information is passed back to the CPU per frame. This means the CPU knows which objects have been seen by the player, allowing gameplay to be developed around what is visible. An example of this gameplay is illustrated in figure 3., where statues move when they are not seen by the player.</p>
+              <p class = "text-light">To solve this issue, I have modified Unreal Engine 5. My modifications compute what has been rendered in ray-tracing on the GPU, and then this information is passed back to the CPU per frame. This means the CPU knows which objects have been seen by the player, allowing gameplay to be developed around what is visible. An example of this gameplay is illustrated in figure 5., where statues move when they are not seen by the player.</p>
             
               <figure>
                 <img src="/Pictures/House/311878773_934734627500974_7293957548553516913_n.gif" width = "100%" class="img-thumbnail" style ="border: none; background: transparent;" alt = "">
