@@ -8,8 +8,8 @@
 }
 
 a:link{
-    color:white;
-    text-decoration: none;
+    color:pink;
+    text-decoration:underline;
 }
 
 .span-link:hover{
